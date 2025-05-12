@@ -128,7 +128,7 @@ Avant de commencer, assurez-vous que les outils suivants sont installés :
 
     * Cause : Le script `configure` n'a pas trouvé ou utilisé la version `ncursesw` (avec support wide-char) nécessaire pour l'UTF-8.
 
-6. **Correction : Utiliser `ncurses` de Homebrew Explicitment**
+6. **Correction : Utiliser `ncurses` de Homebrew explicitement**
     * Vérifier/Installer `ncurses` (déjà fait dans les prérequis, mais pour confirmer) :
 
         ```bash
