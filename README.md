@@ -96,7 +96,7 @@ Avant de commencer, assurez-vous que les outils suivants sont installés :
 3. **Extraire les Sources**
 
     ```bash
-    tar -xf nano-8.4.tar.xz
+    tar -xvf nano-8.4.tar.xz
     ```
 
 4. **Naviguer dans le Dossier des Sources**
