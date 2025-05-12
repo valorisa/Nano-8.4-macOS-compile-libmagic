@@ -1,0 +1,31 @@
+# Ignorer les archives téléchargées
+nano-*.tar.xz
+
+# !!! Ignorer le répertoire des sources de nano !!!
+nano-*/
+
+# Fichiers de configuration et logs Autotools/Make
+config.log
+config.status
+config.cache
+config.h
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+.deps/
+stamp-h1
+
+# Fichiers objets et exécutables compilés
+*.o
+*.a
+*.so
+*.dylib
+src/nano  # L'exécutable nano lui-même
+
+# Fichiers spécifiques macOS
+.DS_Store
+
+# Fichiers spécifiques à certains éditeurs
+*.swp
+*~
