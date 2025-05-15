@@ -7,7 +7,7 @@ Ce document détaille les étapes suivies pour compiler l'éditeur de texte GNU 
 Compiler et installer nano 8.4 avec les options `--enable-libmagic` et `--enable-utf8`. La version initialement installée (probablement via Homebrew ou une compilation précédente) ne possédait pas ces options :
 
 ```bash
-darkfairie@iMacdeIsabelle2-001 macOS-Nano-Compile % nano --version
+% nano --version
 GNU nano, version 8.4
 (C) 2025 la Free Software Foundation et d'autres contributeurs
 Compilé avec les options : --disable-libmagic --disable-utf8 
